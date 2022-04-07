@@ -1,5 +1,7 @@
+# MODELS
+
 # generate prime numbers between a and b
-# and b are not inclusive
+# a and b are not inclusive
 a, b = [int(a) for a in input("Enter start and end of range (integer): ").split()]
 psum = 0
 for num in range(a + 1, b):
