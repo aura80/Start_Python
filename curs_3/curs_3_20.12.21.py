@@ -41,6 +41,7 @@ def print_details(nume, restanta, varsta = "0"):
 
 print_details("ionut", "56")
 
+
 # print('sum is ', 5 + 6)
 # print('sum is ', 6 + 10)
 # print('sum is ', 23.5 + 34.6)
