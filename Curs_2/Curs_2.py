@@ -83,3 +83,4 @@ def nr_prime(a, b):
             else:
                 print(i)
 nr_prime(0,98)
+
