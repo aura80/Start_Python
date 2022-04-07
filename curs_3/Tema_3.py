@@ -224,3 +224,4 @@ if no == multiplu or no == multiplu + 1:
     print("Special  ---   ", bool(no))
 else:
     print("Special  ---   ", bool(0))
+
