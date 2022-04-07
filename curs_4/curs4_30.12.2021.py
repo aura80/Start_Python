@@ -110,7 +110,6 @@ lista.sort()
 print(lista)
 print(list[-1:1])
 
-
 #suma elementelor listei /pare/ impare/ suma/ produs
 def sum_of_list():
     list = [2,3,4,5,6,6,6,8,9]
