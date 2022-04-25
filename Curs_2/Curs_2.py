@@ -49,7 +49,7 @@ def inv_nr(n):
     numar = n
     lista = []
     sir = ''
-    print(f'Inversul lui {numar} este :')
+    print(f'Inversul lui {numar} este : ', end='')
     for i in range(5):
         r = n % 10
         n = n // 10
