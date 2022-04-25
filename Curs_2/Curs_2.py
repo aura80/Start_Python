@@ -1,7 +1,7 @@
 from math import sqrt
 
 print("1. Afișați în consolă rezultatul expresiei: 9 * (12-5) - 2**3")
-print(9 * (12-5) - 2**3)
+print("9 * (12-5) - 2**3 =", 9 * (12-5) - 2**3)
 
 print("\n2. Realizați un nou program care calculează și afișează șapte la puterea a treia.")
 print(7**3)
@@ -33,7 +33,7 @@ print(int("110"))
 print("\n5. Creați un convertor de timp, transformând astfel orele și minutele introduse de la tastatură în secunde.")
 def secunde(ore, min):
     total_secunde = ore * 3600 + min * 60
-    print(total_secunde)
+    print(f'{ore} ore si {min} minute au: {total_secunde} secunde')
 secunde(5,54)
 secunde(7,32)
 
@@ -81,6 +81,6 @@ def nr_prime(a, b):
                 if nr % j == 0:
                    break
             else:
-                print(nr)
+                print(nr, end=", ")
 nr_prime(0,98)
 
