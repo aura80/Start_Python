@@ -81,6 +81,6 @@ def nr_prime(a, b):
                 if nr % j == 0:
                    break
             else:
-                print(i)
+                print(nr)
 nr_prime(0,98)
 
