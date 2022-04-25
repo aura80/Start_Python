@@ -45,6 +45,21 @@ def media(a,b,c,d):
 media(2,8,10,22)
 
 print("\n7. Citim de la tastatură un număr natural n. Puteți afișa răsturnatul lui?")
+def inv_nr(n):
+    numar = n
+    lista = []
+    sir = ''
+    print(f'Inversul lui {numar} este :')
+    for i in range(5):
+        r = n % 10
+        n = n // 10
+        lista.append(r)
+        sir = str(r)
+        print(sir, end="")
+    print(f'\n\nInversul lui {numar} este :', lista)
+    print(sir[-1:-5])
+inv_nr(12345)
+
 def invers_nr(n):
     inv = ''
     for i in range(len(n), 0, -1):
