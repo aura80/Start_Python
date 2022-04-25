@@ -57,34 +57,39 @@ print("substring afisare inversa:", fraza[::-1])
 nume = "alex"
 print(nume.upper())
 print(nume.capitalize())
-fraza = fraza.replace("ioana", "ana")
-print(fraza.replace("ana", "ioana"))
+fraza = fraza.replace("Ana", "Ioana")
+print(fraza)
+print(fraza.replace("Ioana", "Dana"))
+print(fraza)
+propozitia = fraza.replace("Ioana", "Maria")
+print(propozitia)
 print(fraza.find("a"))
 print(nume.find("l"))
 
-curs = input("citeste un numar")
+curs = input("citeste un numar: ")
 print(curs)
-year_birth = input("citeste un numar")
+year_birth = input("citeste un numar: ")
 an = 2021
-print(an-int(year_birth))
+print("An nastere: ", an-int(year_birth))
 
-a = input("primul numar este")
-b = input("al doilea numar este")
-print("suma este", int(a)+int(b))
+a = input("primul numar este: ")
+b = input("al doilea numar este: ")
+print("suma este: ", int(a)+int(b))
 
-c = int(input("c primul numar este"))
-d = int(input("d al doilea numar este"))
-print("produsul este", c*d)
+print("\nDati doua numere egale: ")
+c = int(input("c primul numar > 18 si < 55 este: "))
+d = int(input("d al doilea numar > 18 si < 55 este: "))
+print("produsul este: ", c*d)
 
 # a = {"ana","are","mere"}  #lista
 
-assert a == b
+assert c == c
 
 #   == #egal
 #   != #not egal
 #   in #cauta daca un string e in alt string
 
-assert   int(a) > 18 and int(a) < 55
+assert   int(c) > 18 and int(c) < 55
 # assert   a > 18 or a < 55
 assert "in" in "alina3"
 
